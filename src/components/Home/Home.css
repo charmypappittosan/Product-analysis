@@ -1,0 +1,28 @@
+.homeTotal{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+    /* margin-top: 60px; */
+    margin: auto;
+}
+img{
+    width: 800px;
+    height: 700px;
+    margin: 70px;
+}
+.homedescribe{
+    color: white;
+     margin-right: 250px;
+     margin-top: 250px;
+     /* padding-right: 200px; */
+     
+}
+ h2{
+       color: rgb(213, 196, 184);
+
+   
+}
+.homedescribe p{
+    font-size: 20pt;
+    /* padding-right: 200px; */
+}
