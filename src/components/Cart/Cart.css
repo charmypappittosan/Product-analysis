@@ -1,0 +1,14 @@
+p{
+    font-size: 20pt;
+    color: white;
+}
+.container{
+    border: 1px solid rgb(232, 223, 240);
+    border-radius: 10px;
+    height: 250px;
+    width: 800px;
+    
+}
+.container:hover{
+    background-color: rgb(71, 71, 70);
+}

@@ -1,9 +1,17 @@
 import React from 'react';
-
+import useReviews from '../../Hooks/useReviews';
+import Cart from '../Cart/Cart';
+import './Review.css';
 const Review = () => {
+    const [reviews, setReviews] = useReviews([]);
     return (
-        <div>
-            <h2>Review dao</h2>
+        <div className='review'>
+           {
+               reviews.map(review=><Cart
+               key={review.id}
+               review={review}
+               ></Cart>)
+           }
         </div>
     );
 };

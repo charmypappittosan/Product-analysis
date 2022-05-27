@@ -2,7 +2,9 @@ import React from 'react';
 import img1 from '../../images/pic.png'
 import './Home.css';
 
-const Home = () => {
+const Home = (props) => {
+   // console.log(props);
+   
     return (
       <div>
             <div className='homeTotal'>
