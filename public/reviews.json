@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "name": "Maria Jahan",
-    "feedback": "It is a very good website to parchage books."
+    "name": "Md Nahian Anwar",
+    "feedback": "Satisfied with the collection but the delivery process is not good enough."
   },
   {
     "id": 2,
-    "name": "Md Nahian Anwar",
-    "feedback": "Satisfied with the collection but the delivery process is not good enough."
+    "name": "Mir Ayman Monsur",
+    "feedback": "Life is like a roller-coaster. Don't loose hope. Be passionate, read books. One day we all would be proud of you."
   },
   {
     "id": 3,
@@ -27,6 +27,6 @@
   {
     "id": 6,
     "name": "Vivid Islam",
-    "feedback": "If you need vodka ...contact with me."
+    "feedback": "If you need vodka ...contact with me. My service is on 24/7."
   }
 ]

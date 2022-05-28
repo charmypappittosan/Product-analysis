@@ -26,3 +26,19 @@ img{
     font-size: 20pt;
     /* padding-right: 200px; */
 }
+.button{
+    background-color:rgb(154, 214, 240);
+    font: bold;
+    font-weight: 500;
+    font-size: 20pt;
+    height: 70px;
+    width: 220px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+.reviews{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}

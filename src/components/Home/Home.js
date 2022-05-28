@@ -3,9 +3,7 @@ import useReviews from '../../Hooks/useReviews';
 import img1 from '../../images/pic.png'
 import './Home.css';
 import MiniReview from '../MiniReview/MiniReview'
-import { Link, useNavigate } from 'react-router-dom';
-import Cart from '../Cart/Cart';
-import Review from '../Review/Review';
+import {useNavigate } from 'react-router-dom';
 
 const Home = () => {
     const [reviews, setReviews] = useReviews([]);
@@ -24,16 +22,18 @@ const Home = () => {
             </div>
         </div>
         <div>
-            <h1>Reviews</h1>
-            
+            <h1>Reviews({reviews.length})</h1>
+         <div className='reviews'>
+                
             {
-                 reviews.slice(0,3).map(review=><MiniReview
+                 reviews.slice(0,4).map(review=><MiniReview
                key={review.id}
                review={review}
                ></MiniReview>)
               
 
             }
+         </div>
             <button className='button' onClick={seeAll}>See All</button>
         
            
