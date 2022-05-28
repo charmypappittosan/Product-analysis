@@ -5,7 +5,6 @@ import Home from './components/Home/Home';
 import Review from './components/Review/Review';
 import DashBoard from './components/DashBoard/DashBoard';
 import Blog from './components/Blog/Blog';
-import Cart from './components/Cart/Cart';
 function App() {
   return (
     <div className="App">
